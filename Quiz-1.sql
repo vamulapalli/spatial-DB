@@ -115,9 +115,13 @@ DESCRIBE Probes;
  FROM Planets
  WHERE  NumMoons>0;
   
+ #13#######################################################################################
+ 
+ SELECT Planets.Name, Probes.dest
+ FROM Planets LEFT OUTER JOIN Probes
+ ON (Planets.Name = Probes.dest);
+ 
  ##########################################################################################
- 
- 
  
  
  

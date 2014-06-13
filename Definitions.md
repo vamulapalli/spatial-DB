@@ -1,7 +1,7 @@
 ##Definations
 
 
-#Shspe Files:
+#Shape Files:
  A shape file ia a digital vector storage format for storing gemetric location and associated information.
  
 #GEOJSON:

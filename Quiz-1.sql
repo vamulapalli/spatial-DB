@@ -93,14 +93,14 @@ DESCRIBE Probes;
   WHERE dest IN (SELECT Planets.Name
   FROM Planets
   WHERE LengthOfYear <= ALL(SELECT LengthOfYear
-  FROM Planets));)
+  FROM Planets));
  
 
  #10######################################################################################
  
- SELECT Name
- FROM 
-(SELECT MAX(LengthOfYear) AS S FROM Planets)X;
+ select Name 
+ from Planets 
+ where LengthOfYear in (select Max(LengthOfYear) from Planets);
  
  #11######################################################################################
  

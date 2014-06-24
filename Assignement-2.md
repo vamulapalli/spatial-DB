@@ -9,7 +9,7 @@
 |![1]|    35  |   40   | Table Structure | Table structure was correct.                       |
 |![2]|    10  |   0    | Markdown        | Used proper markdown.                              |
 |    | Total  |        |                 |                                                    |
-|    |    100 |**100** |                 |                                                    |
+|    |    100 |**90**  |                 |                                                    |
 
 
 

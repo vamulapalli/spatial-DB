@@ -27,8 +27,9 @@
 
 #Org2org Cammand
 
-
-`ogr2ogr -f "MySQL" MySQL:"avamulapalli,host=localhost,user=avamulapalli,password=appuchandu,port=3036" TM_WORLD_BORDERS-0.3.shp -nln World_Borders -update -overwrite -lco engine=MYISAM`
+```
+ogr2ogr -f "MySQL" MySQL:"avamulapalli,host=localhost,user=avamulapalli,password=appuchandu,port=3036" TM_WORLD_BORDERS-0.3.shp -nln World_Borders -update -overwrite -lco engine=MYISAM
+```
 
 
 # Table damp Structure

@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
        // Create connection
-       $con=mysqli_connect("localhost","avamulapalli","appuchandu","avamulapalli");
+       $con=mysqli_connect("localhost","avamulapalli","aparna","avamulapalli");
 
        // Check connection
        if (mysqli_connect_errno()) {

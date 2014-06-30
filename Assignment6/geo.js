@@ -107,6 +107,29 @@ function addPolygon(obj,Color) {
 }
 
 function addLine(obj){
+
+var linestringArray = [];
+    
+    for (var i in obj){
+        for(var j=0;j<obj[i].length;j++){
+            var latlng = new google.maps.LatLng(obj[i][j][1],obj[i][j][0]);
+            linestringArray.push(latlng);
+        }
+    }
+
+    var lineString = new google.maps.Polygon({
+        paths: linestringArray,
+        title: obj.fullname,
+        fillColor: Color,
+        fillOpacity: 0.2,
+        strokeWeight: 2,
+        strokeColor: Color,
+        map: map
+    });
+
+    linestringArray.push(lineString); //Add polygon to global array of polygons
+
+
     
 }
 
